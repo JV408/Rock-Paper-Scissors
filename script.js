@@ -41,7 +41,6 @@ let computerScore = 0;
 let tieScore = 0;
 
 function playGame(playerSelection) {
-     
     let computerSelection = getComputerChoice(selection);
     let result = playRound(playerSelection, computerSelection);
     if (result === 'tie') {
